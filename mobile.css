@@ -1,3 +1,7 @@
+html, body {
+    scroll-behavior:auto;
+}
+
 .navbar .logo {
     float: none;
     display: block;

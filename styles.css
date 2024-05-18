@@ -142,7 +142,7 @@ form button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100dvh;
+    height: 100vh;
 }
 
 /* navbar */
@@ -303,11 +303,6 @@ form button {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-
-    .scrollToTop.visible:active {
-        transform: translate(2px, 10px);
-        box-shadow: none;
-    }
     
     /*}} Fin del core {{*/
     
@@ -332,7 +327,7 @@ form button {
         /* separación derecha */
         padding: .5em;
         /* relleno */
-        border-radius: 50px;
+        border-radius: 4px;
         /* borde redondeado */
     }
     
