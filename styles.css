@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    text-align: center;
+    padding: 3em 0;
+    text-transform: uppercase;
+    color: red;
+    font-size: 3em;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+.display-1 {
+    font-size: 3em;
+    font-weight: lighter;
+    text-align: center;
+    margin: 2em 0 1em 0;
+    color: #fff;
+}
+
+.display-2 {
+    text-align: center;
+    padding: 3em 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3em;
+}
+
+.btn {
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 3px;
+border: none;
+}
+
+.button-1 {
+    background: red;
+    color: #fff;
+}
+
+.button-2 {
+    background: none;
+    border: 1px solid red;
+    color: red;
+}
+
+.button-3 {
+    border: none;
+    background: rgb(244, 125, 125);
+    color: red;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    padding: 3em 0;
+    background: red;
+}
